@@ -17,5 +17,14 @@
   <ItemGroup>
     <Folder Include="Middleware\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ProductCatalogTest\**" />
+    <Content Remove="ProductCatalogTest\**" />
+    <EmbeddedResource Remove="ProductCatalogTest\**" />
+    <None Remove="ProductCatalogTest\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ProductCatalogTest.csproj" />
+  </ItemGroup>
 
 </Project>
